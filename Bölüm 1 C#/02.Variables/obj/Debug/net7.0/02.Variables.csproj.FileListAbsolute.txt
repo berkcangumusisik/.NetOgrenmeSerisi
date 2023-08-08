@@ -1,0 +1,15 @@
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.csproj.AssemblyReference.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.AssemblyInfoInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.AssemblyInfo.cs
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\bin\Debug\net7.0\02.Variables.exe
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\bin\Debug\net7.0\02.Variables.deps.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\bin\Debug\net7.0\02.Variables.runtimeconfig.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\bin\Debug\net7.0\02.Variables.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\bin\Debug\net7.0\02.Variables.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\refint\02.Variables.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\02.Variables.genruntimeconfig.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\02.Variables\obj\Debug\net7.0\ref\02.Variables.dll
