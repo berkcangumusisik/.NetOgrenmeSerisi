@@ -1,0 +1,15 @@
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.csproj.AssemblyReference.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.AssemblyInfoInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.AssemblyInfo.cs
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\bin\Debug\net7.0\03.DataTypes.exe
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\bin\Debug\net7.0\03.DataTypes.deps.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\bin\Debug\net7.0\03.DataTypes.runtimeconfig.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\bin\Debug\net7.0\03.DataTypes.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\bin\Debug\net7.0\03.DataTypes.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\refint\03.DataTypes.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\03.DataTypes.genruntimeconfig.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\03.DataTypes\obj\Debug\net7.0\ref\03.DataTypes.dll

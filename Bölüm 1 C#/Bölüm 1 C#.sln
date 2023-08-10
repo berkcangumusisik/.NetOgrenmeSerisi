@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bölüm 1 C#", "Bölüm 1 C#\Bölüm 1 C#.csproj", "{5D517885-E7DC-4BE2-B5A7-9626D77E38CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bölüm 1 C#", "Bölüm 1 C#\Bölüm 1 C#.csproj", "{5D517885-E7DC-4BE2-B5A7-9626D77E38CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.HelloWorld", "01.HelloWorld\01.HelloWorld.csproj", "{9997A17E-5CA5-494B-85BB-47FE85D45FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.HelloWorld", "01.HelloWorld\01.HelloWorld.csproj", "{9997A17E-5CA5-494B-85BB-47FE85D45FED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Variables", "02.Variables\02.Variables.csproj", "{FB5EBA0C-00B8-47C6-B07A-B81E3663A6C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Variables", "02.Variables\02.Variables.csproj", "{FB5EBA0C-00B8-47C6-B07A-B81E3663A6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DataTypes", "03.DataTypes\03.DataTypes.csproj", "{C1BBCF21-A047-4EC0-A62A-758F06F2159F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FB5EBA0C-00B8-47C6-B07A-B81E3663A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB5EBA0C-00B8-47C6-B07A-B81E3663A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB5EBA0C-00B8-47C6-B07A-B81E3663A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BBCF21-A047-4EC0-A62A-758F06F2159F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BBCF21-A047-4EC0-A62A-758F06F2159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BBCF21-A047-4EC0-A62A-758F06F2159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BBCF21-A047-4EC0-A62A-758F06F2159F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
