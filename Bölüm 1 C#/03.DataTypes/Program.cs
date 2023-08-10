@@ -9,16 +9,9 @@ Console.WriteLine(ad);
 bool dogruMu = true;
 Console.WriteLine(dogruMu);
 
-
-int x = 5;
-int y = 10;
-x = y;
-y = 20;
-Console.WriteLine(x);
-Console.WriteLine(y);
 /**
  Veri Türleri
- - Value Types (Değer Tipleri) : int, float, double, decimal, bool, char, byte, short, long, struct, enum
+ - Value Types (Değer Tipleri) : int, float, double, decimal, bool, char, byte, short, long, struct
  - Reference Types (Referans Tipleri) : string, class, interface, object, dynamic
  Tam Sayı Veri Tipleri
 - int : 32 bit  
