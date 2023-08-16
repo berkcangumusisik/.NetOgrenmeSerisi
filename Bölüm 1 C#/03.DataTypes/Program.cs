@@ -9,6 +9,16 @@ Console.WriteLine(ad);
 bool dogruMu = true;
 Console.WriteLine(dogruMu);
 
+
+string metin1 = "100";
+int s1 = int.Parse(metin1);
+int s2 = Convert.ToInt32(metin1);
+
+string metin2 = "True";
+bool b1 = bool.Parse(metin2);
+bool b2 = Convert.ToBoolean(metin2);
+
+
 /**
  Veri Türleri
  - Value Types (Değer Tipleri) : int, float, double, decimal, bool, char, byte, short, long, struct
@@ -27,5 +37,7 @@ Console.WriteLine(dogruMu);
 Char Veri Tipi => Tek karakter tutar ve tek tırnak ile tanımlanır.
 
 var anahtar kelimesi ile değişken tanımlanabilir. Ancak var ile değişken tanımlamak yerine veri tipini belirtmek daha doğrudur.
+
+Parse ve Convert ile değişken dönüşümü yapılabilir.
  */
 
