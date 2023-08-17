@@ -32,3 +32,83 @@ for(int i = baslangic; i <= bitis; i++)
     toplam2 += i;
 }
 Console.WriteLine(toplam2);
+
+// While Döngüsü
+/**
+ * Koşul sağlandığı sürece döngüyü çalıştırır.
+ while(koşul)
+ {
+    // Yapılacak işlemler
+ }
+ */
+ 
+
+int sayi6 = 0;
+while(sayi6 < 10)
+{
+    Console.WriteLine(sayi6);
+    sayi6++;
+}
+
+
+// Klavyeden girilen sayının faktöriyelini bulunuz.
+Console.Write("Bir Sayı Giriniz: ");
+int sayi7 = int.Parse(Console.ReadLine());
+int faktoriyel = 1;
+while(sayi7 > 0)
+{
+    faktoriyel *= sayi7;
+    sayi7--;
+}
+Console.WriteLine(faktoriyel);
+
+//break ve continue
+//break : Döngüyü sonlandırmak için kullanılır.
+//continue : Döngü o değeri atlayarak devam ettirmek için kullanılır.
+
+
+for(int i = 0; i < 10; i++)
+{
+    if(i == 5)
+        break;
+    Console.WriteLine(i);
+}
+
+for(int i = 0; i < 10; i++)
+{
+    if(i == 5)
+        continue;
+    Console.WriteLine(i);
+}
+
+
+// Do While Döngüsü
+/**
+ * Koşul sağlansa da sağlanmasa da döngüyü en az bir kere çalıştırır.
+ do
+ {
+    // Yapılacak işlemler
+ } while(koşul);
+ */
+
+
+int sayi8 = 0;
+do
+{
+    Console.WriteLine(sayi8);
+    sayi8++;
+} while(sayi8 < 10);
+
+// Foreach Döngüsü
+/** 
+ foreach (değişken_türü değişken_ismi in dizi)
+ {
+    // Yapılacak işlemler
+ }
+ */
+
+string ad = "Berkcan";
+foreach(char harf in ad)
+{
+    Console.WriteLine(harf);
+}
