@@ -1,0 +1,15 @@
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\bin\Debug\net7.0\06.Donguler.exe
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\bin\Debug\net7.0\06.Donguler.deps.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\bin\Debug\net7.0\06.Donguler.runtimeconfig.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\bin\Debug\net7.0\06.Donguler.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\bin\Debug\net7.0\06.Donguler.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.csproj.AssemblyReference.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.AssemblyInfoInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.AssemblyInfo.cs
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\refint\06.Donguler.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\06.Donguler.genruntimeconfig.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\06.Donguler\obj\Debug\net7.0\ref\06.Donguler.dll

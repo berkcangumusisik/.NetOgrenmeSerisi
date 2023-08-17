@@ -136,6 +136,10 @@ switch (number)
         Console.WriteLine("Hatalı Giriş");
         break;
 }
+
+int sayi5 = -10;
+string sonuc = sayi5 > 0 ? "Pozitif" : "Negatif";
+Console.WriteLine(sonuc);
 /*
  if(kosul)
  {
@@ -143,7 +147,7 @@ switch (number)
  }
  else if(baskaKosul)
  {
-    // Kosul saglanmazsa calisacak kodlar
+    // BaşkaKoşul sağlanırsa calisacak kodlar
  }
  else
  {
@@ -163,4 +167,7 @@ switch (number)
         // Yukaridaki degerlerden hicbiri degilse yapilacaklar
         break;
  }
+
+Terary Operator
+Kosul ? Dogruysa : Yanlissa
  */
