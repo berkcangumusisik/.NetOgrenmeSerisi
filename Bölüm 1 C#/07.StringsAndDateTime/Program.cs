@@ -41,11 +41,15 @@ Console.WriteLine(DateTime.Now.Hour);
 Console.WriteLine(DateTime.Now.Minute);
 Console.WriteLine(DateTime.Now.DayOfWeek);
 
+DateTime dateTime = new DateTime(2021, 1, 1);
+Console.WriteLine(dateTime);
+
+
 /**
  DateTime Metotları
  * DateTime.Now -> Şu anki zamanı verir.
  * DateTime.Now.Year -> Şu anki yıl bilgisini verir.
  * DateTime.Now.Month -> Şu anki ay bilgisini verir.
  * DateTime.Now.Day -> Şu anki gün bilgisini verir.
- * 
+ * new DateTime(Yıl, Ay, Gün) -> Belirtilen yıl, ay ve gün bilgisine göre bir DateTime nesnesi oluşturur.
  */
