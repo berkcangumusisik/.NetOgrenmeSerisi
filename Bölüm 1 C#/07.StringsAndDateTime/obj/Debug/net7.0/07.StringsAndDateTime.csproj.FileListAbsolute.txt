@@ -1,0 +1,15 @@
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\bin\Debug\net7.0\07.StringsAndDateTime.exe
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\bin\Debug\net7.0\07.StringsAndDateTime.deps.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\bin\Debug\net7.0\07.StringsAndDateTime.runtimeconfig.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\bin\Debug\net7.0\07.StringsAndDateTime.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\bin\Debug\net7.0\07.StringsAndDateTime.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.csproj.AssemblyReference.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.AssemblyInfoInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.AssemblyInfo.cs
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\refint\07.StringsAndDateTime.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\07.StringsAndDateTime.genruntimeconfig.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\07.StringsAndDateTime\obj\Debug\net7.0\ref\07.StringsAndDateTime.dll
