@@ -1,0 +1,14 @@
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\bin\Debug\net7.0\08.Arrays.exe
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\bin\Debug\net7.0\08.Arrays.deps.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\bin\Debug\net7.0\08.Arrays.runtimeconfig.json
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\bin\Debug\net7.0\08.Arrays.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\bin\Debug\net7.0\08.Arrays.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.AssemblyInfoInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.AssemblyInfo.cs
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\refint\08.Arrays.dll
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.pdb
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\08.Arrays.genruntimeconfig.cache
+C:\Users\Berk\Documents\GitHub\.NetOgrenmeSerisi\Bölüm 1 C#\08.Arrays\obj\Debug\net7.0\ref\08.Arrays.dll
