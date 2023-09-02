@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.Donguler", "06.Donguler\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.StringsAndDateTime", "07.StringsAndDateTime\07.StringsAndDateTime.csproj", "{CAE17183-3C26-4B25-8626-A7726551BB6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Arrays", "08.Arrays\08.Arrays.csproj", "{B01137CA-249C-4D2E-BD13-7663E269531F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.Arrays", "08.Arrays\08.Arrays.csproj", "{B01137CA-249C-4D2E-BD13-7663E269531F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Collections", "09.Collections\09.Collections.csproj", "{0AB59598-D777-4FAD-8FC1-F19CA98C4203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{B01137CA-249C-4D2E-BD13-7663E269531F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01137CA-249C-4D2E-BD13-7663E269531F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01137CA-249C-4D2E-BD13-7663E269531F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB59598-D777-4FAD-8FC1-F19CA98C4203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB59598-D777-4FAD-8FC1-F19CA98C4203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB59598-D777-4FAD-8FC1-F19CA98C4203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB59598-D777-4FAD-8FC1-F19CA98C4203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
