@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.Interfaces", "16.Interfa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "..\..\YetGenAkbankBackendEgitimi\Asenkron İçerikler\Week1\Week1.csproj", "{2C5CAC87-A3B9-4CC3-9246-AE9714D1720F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.Collections", "17.Collections\17.Collections.csproj", "{8F13D799-492E-4E05-9345-47A005DBB0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17.Collections", "17.Collections\17.Collections.csproj", "{8F13D799-492E-4E05-9345-47A005DBB0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.Exceptions", "18.Exceptions\18.Exceptions.csproj", "{260F2AAC-7950-4C75-B133-023D11AED3A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{8F13D799-492E-4E05-9345-47A005DBB0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F13D799-492E-4E05-9345-47A005DBB0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F13D799-492E-4E05-9345-47A005DBB0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260F2AAC-7950-4C75-B133-023D11AED3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260F2AAC-7950-4C75-B133-023D11AED3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260F2AAC-7950-4C75-B133-023D11AED3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260F2AAC-7950-4C75-B133-023D11AED3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
