@@ -1,4 +1,13 @@
-﻿/**
+﻿namespace _01._EfCoreStarter
+{
+    public class Details
+    {
+
+    }
+}
+
+
+/**
  * ORM (Object Relational Mapping - Nesne İlişkisel Eşleme)
  * Yazılım uygulamalarında veriler fiziksel olarak veritabanında tutulur.
  * Haliyle yazılım ile veritabanı arasında sürekli bir bağlantı üzerinden iletişim sağlanmalıdır.
@@ -17,4 +26,11 @@ SQL Yazmanın Dezavantajları
 - Kodu veritabanından olan değişikliğe uygun bir şekilde güncellemek gerekir.
 - Kodu aşırı derecede veritabanına bağımlı hale getirir.
 
- */
+
+ORM Avantajları
+- Veritabanı bağımlılığını ortadan kaldırır.
+- Kullanılan veritabanı değişse bile kodda değişiklik yapılmasına gerek kalmaz.
+- SQL yeteneklerine ihtiyaç duymadan veritabanı işlemleri yapılabilir.
+- Kodun okunabilirliği artar.
+
+*/

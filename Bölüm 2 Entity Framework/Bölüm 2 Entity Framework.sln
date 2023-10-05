@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. EfCoreStarter", "01. EfCoreStarter\01. EfCoreStarter.csproj", "{3207CC69-C214-4655-81B4-7B5DD4C98B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DatabaseFirstProject", "02.DatabaseFirstProject\02.DatabaseFirstProject.csproj", "{41094CE4-AB2B-4938-888B-28C7DEAEE7BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3207CC69-C214-4655-81B4-7B5DD4C98B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3207CC69-C214-4655-81B4-7B5DD4C98B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3207CC69-C214-4655-81B4-7B5DD4C98B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3207CC69-C214-4655-81B4-7B5DD4C98B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41094CE4-AB2B-4938-888B-28C7DEAEE7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41094CE4-AB2B-4938-888B-28C7DEAEE7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41094CE4-AB2B-4938-888B-28C7DEAEE7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41094CE4-AB2B-4938-888B-28C7DEAEE7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2EA42FA-0312-46DD-932A-5378215786AE}
+	EndGlobalSection
+EndGlobal
