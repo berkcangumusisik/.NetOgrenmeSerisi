@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 DbContextInitializer.Build();
 
-using(var _context = new AppDbContext(DbContextInitializer.OptionsBuilder.Options))
+using (var _context = new AppDbContext())
 {
-    var products = _context.Products.ToList();
-    foreach(var product in products)
+    var products = await _context.Products.ToListAsync();
+    foreach (var product in products)
     {
-        Console.WriteLine(product.Name);
+        Console.WriteLine(product.Name, product.Price);
     }
 }

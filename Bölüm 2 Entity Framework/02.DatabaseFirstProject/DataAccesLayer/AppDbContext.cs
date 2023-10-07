@@ -1,5 +1,6 @@
 ﻿using _02.DatabaseFirstProject.EntityLayer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,13 @@ namespace _02.DatabaseFirstProject.DataAccesLayer
         {
         }
 
-        
+        public AppDbContext()
+        {
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(DbContextInitializer.Configuration.GetConnectionString("SqlConnection"));
+        }
     }
 }
 
