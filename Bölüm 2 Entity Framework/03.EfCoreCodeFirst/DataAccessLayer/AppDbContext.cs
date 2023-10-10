@@ -18,5 +18,23 @@ namespace _03.EfCoreCodeFirst.DataAccessLayer
             Initializer.Build();
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlConnection"));
         }
+
+        public override int SaveChanges()
+        {
+            ChangeTracker.Entries().ToList().ForEach(entry =>
+            {
+                if (entry.Entity is Product p)
+                {
+                    if (entry.State == EntityState.Added)
+                    {
+                        p.CreatedDate = DateTime.Now;
+                    }
+                }
+            });
+
+            return base.SaveChanges();
+        }
     }
+
+
 }

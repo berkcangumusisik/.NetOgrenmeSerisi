@@ -1,28 +1,28 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace _03.EfCoreCodeFirst.Migrations
 {
     /// <inheritdoc />
-    public partial class initial2 : Migration
+    public partial class datetime : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "Barcode",
+            migrationBuilder.AddColumn<DateTime>(
+                name: "CreatedDate",
                 table: "Products",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+                type: "datetime2",
+                nullable: true);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Barcode",
+                name: "CreatedDate",
                 table: "Products");
         }
     }

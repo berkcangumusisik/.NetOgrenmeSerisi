@@ -12,8 +12,8 @@ using _03.EfCoreCodeFirst.DataAccessLayer;
 namespace _03.EfCoreCodeFirst.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231007093744_initial2")]
-    partial class initial2
+    [Migration("20231010141548_date-time")]
+    partial class datetime
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,12 +27,17 @@ namespace _03.EfCoreCodeFirst.Migrations
 
             modelBuilder.Entity("_03.EfCoreCodeFirst.Entities.Product", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Barcode")
                         .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
                         .IsRequired()
