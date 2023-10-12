@@ -19,6 +19,14 @@ namespace _03.EfCoreCodeFirst.DataAccessLayer
             optionsBuilder.UseSqlServer(Initializer.Configuration.GetConnectionString("SqlConnection"));
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity <Product>().ToTable("ProductTb"); // Tablo ismini değiştirmek için kullanılır.
+            modelBuilder.Entity<Product>().Property(p => p.Name).HasColumnName("ProductName"); // Kolon ismini değiştirmek için kullanılır.
+            modelBuilder.Entity<Product>().HasKey(x => x.Id); // Primary key belirlemek için kullanılır.
+            modelBuilder.Entity<Product>().Property(x => x.Id).UseIdentityColumn(); // Identity yani otomatik artan kolon oluşturmak için kullanılır.
+          modelBuilder.Entity<Product>().Property(x => x.Name).IsRequired  (); // Zorunlu alan oluşturmak için kullanılır.
+
         public override int SaveChanges()
         {
             ChangeTracker.Entries().ToList().ForEach(entry =>

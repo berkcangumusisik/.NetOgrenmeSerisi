@@ -72,6 +72,19 @@ using(var context = new AppDbContext())
 
     context.SaveChanges();
 
+    // var products2 = context.Products.First(x => x.Id == 1000); // Hata verir çünkü Id'si 1000 olan bir ürün yoktur.
+
+    var products2 = context.Products.FirstOrDefault(x => x.Id == 1000); // Hata vermez çünkü FirstOrDefault() metodu null döner.
+    Console.WriteLine(products2);
+
+    var products3 = context.Products.Find(1000); 
+    Console.WriteLine(products3);
+
+    var products4 = context.Products.FirstOrDefault(x => x.Id == 100);
+    Console.WriteLine(products4);
+
+
+
 
 }
 
@@ -98,6 +111,12 @@ Add : Bu metot ile bir entity veritabanına eklenir.
 addAsync : Bu metot ile bir entity veritabanına eklenir.
 Update : Bu metot ile bir entity veritabanında güncellenir.
 Remove : Bu metot ile bir entity veritabanından silinir.
-AsNoTracking : Bu metot ile bir entity track edilmez. Bu metot ile track edilmeyen entity'lerdeki değişiklikler veritabanına uygulanmaz.
+AsNoTracking : Veritabanından veri çekilirken track edilmesini istemediğimiz entity'ler için bu metot kullanılır.
+Find : Bu metot ile bir entity'nin Id'si ile veritabanından çekilmesi sağlanır.
+First : İlk entity'yi getirir. Bulamazsa hata verir.
+Single : Tek bir entity getirir. Birden fazla entity bulursa hata verir.
+Where : Bu metot ile veritabanından veri çekilirken filtreleme yapılır.
+FirstOrDefault : İlk entity'yi getirir. Bulamazsa null döner.
+SingleOrDefault : Tek bir entity getirir. Birden fazla entity bulursa null döner.
 
  */
