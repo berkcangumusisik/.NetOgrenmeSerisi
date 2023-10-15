@@ -12,6 +12,7 @@ namespace _03.EfCoreCodeFirst.DataAccessLayer
     public class AppDbContext :DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Category { get; set; }
 
         override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -21,11 +22,15 @@ namespace _03.EfCoreCodeFirst.DataAccessLayer
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity <Product>().ToTable("ProductTb"); // Tablo ismini değiştirmek için kullanılır.
-            modelBuilder.Entity<Product>().Property(p => p.Name).HasColumnName("ProductName"); // Kolon ismini değiştirmek için kullanılır.
-            modelBuilder.Entity<Product>().HasKey(x => x.Id); // Primary key belirlemek için kullanılır.
-            modelBuilder.Entity<Product>().Property(x => x.Id).UseIdentityColumn(); // Identity yani otomatik artan kolon oluşturmak için kullanılır.
-          modelBuilder.Entity<Product>().Property(x => x.Name).IsRequired  (); // Zorunlu alan oluşturmak için kullanılır.
+            //modelBuilder.Entity<Product>().ToTable("ProductTb"); // Tablo ismini değiştirmek için kullanılır.
+            //modelBuilder.Entity<Product>().Property(p => p.Name).HasColumnName("ProductName"); // Kolon ismini değiştirmek için kullanılır.
+            //modelBuilder.Entity<Product>().HasKey(x => x.Id); // Primary key belirlemek için kullanılır.
+            //modelBuilder.Entity<Product>().Property(x => x.Id).UseIdentityColumn(); // Identity yani otomatik artan kolon oluşturmak için kullanılır.
+            //modelBuilder.Entity<Product>().Property(x => x.Name).IsRequired();// Zorunlu alan oluşturmak için kullanılır.
+
+            //modelBuilder.Entity<Category>().HasMany(x=>x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId); // 1'e çok ilişki kurmak için kullanılır.
+            //modelBuilder.Entity<Product>().HasOne(x =>x.Category).WithOne(x => x.Product).HasForeignKey<Product>(x => x.CategoryId); // 1'e 1 ilişki kurmak için kullanılır.
+        }
 
         public override int SaveChanges()
         {

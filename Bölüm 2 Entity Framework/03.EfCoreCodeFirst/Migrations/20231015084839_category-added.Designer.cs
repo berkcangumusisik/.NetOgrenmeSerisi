@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _03.EfCoreCodeFirst.DataAccessLayer;
 
@@ -11,9 +12,11 @@ using _03.EfCoreCodeFirst.DataAccessLayer;
 namespace _03.EfCoreCodeFirst.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231015084839_category-added")]
+    partial class categoryadded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -70,7 +73,7 @@ namespace _03.EfCoreCodeFirst.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("ProductTb");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("_03.EfCoreCodeFirst.Entities.Product", b =>
