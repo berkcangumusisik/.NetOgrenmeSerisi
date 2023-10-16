@@ -120,3 +120,36 @@ FirstOrDefault : İlk entity'yi getirir. Bulamazsa null döner.
 SingleOrDefault : Tek bir entity getirir. Birden fazla entity bulursa null döner.
 
  */
+
+
+using (var _context = new AppDbContext())
+{
+    var category = new Category
+    {
+        Name = "Kategori 1",
+        Products = new List<Product>
+        {
+            new Product
+            {
+                Name = "Ürün 1",
+                Price = 100,
+                Stock = 100,
+                Barcode = 100
+            },
+            new Product
+            {
+                Name = "Ürün 2",
+                Price = 100,
+                Stock = 100,
+                Barcode = 100
+            },
+            new Product
+            {
+                Name = "Ürün 3",
+                Price = 100,
+                Stock = 100,
+                Barcode = 100
+            }
+        }
+    };  
+}
